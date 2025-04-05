@@ -5,10 +5,9 @@
     "description": "Users/Posts API",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-node-p2-mynorgonzalez.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
@@ -19,16 +18,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
           }
         }
       }
