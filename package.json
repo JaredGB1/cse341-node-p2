@@ -1,0 +1,32 @@
+{
+  "name": "cse341-node-p2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredGB1/cse341-node-p2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaredGB1/cse341-node-p2/issues"
+  },
+  "homepage": "https://github.com/JaredGB1/cse341-node-p2#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongodb": "^6.15.0",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
