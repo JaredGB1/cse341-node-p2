@@ -25,7 +25,7 @@
     "/users/": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Get all the users in the database",
         "produces": [
           "application/json"
         ],
@@ -43,7 +43,7 @@
       },
       "post": {
         "tags": [],
-        "description": "",
+        "description": "Create a new user. You need to log in to create a user",
         "parameters": [
           {
             "name": "body",
@@ -92,7 +92,7 @@
     "/users/{id}": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Get a user by ID. You need to use a valid ID",
         "produces": [
           "application/json"
         ],
@@ -118,7 +118,7 @@
       },
       "put": {
         "tags": [],
-        "description": "",
+        "description": "Edit a user. You need to log in and enter a valid ID to update the user",
         "parameters": [
           {
             "name": "id",
@@ -171,7 +171,7 @@
       },
       "delete": {
         "tags": [],
-        "description": "",
+        "description": "Delete a user. You need to log in and enter a valid id to delete a user",
         "parameters": [
           {
             "name": "id",
@@ -196,7 +196,7 @@
     "/posts/": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Get all the posts in the database",
         "produces": [
           "application/json"
         ],
@@ -214,7 +214,7 @@
       },
       "post": {
         "tags": [],
-        "description": "",
+        "description": "Create a new post. You need to log in to create a post",
         "parameters": [
           {
             "name": "body",
@@ -251,7 +251,7 @@
     "/posts/{id}": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Get a post by ID. You need to use a valid ID",
         "produces": [
           "application/json"
         ],
@@ -277,7 +277,7 @@
       },
       "put": {
         "tags": [],
-        "description": "",
+        "description": "Edit a post. You need to log in and enter a valid ID to update the post",
         "parameters": [
           {
             "name": "id",
@@ -321,7 +321,7 @@
       },
       "delete": {
         "tags": [],
-        "description": "",
+        "description": "Delete a post. You need to log in and enter a valid id to delete a post",
         "parameters": [
           {
             "name": "id",
